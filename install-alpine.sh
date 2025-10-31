@@ -15,6 +15,4 @@ chmod 777 /usr/share/fonts/msyh/msyhbd.ttc
 chmod 777 /usr/share/fonts/msyh/msyhl.ttc
 
 fc-cache -f
-fc-list
-
-echo "Installed successfully. 你好, 世界!"
+echo "Installed successfully."

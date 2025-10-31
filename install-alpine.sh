@@ -1,7 +1,10 @@
 echo "Installing alpine packages..."
 apk --no-cache add ca-certificates wget git
 wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
-apk add glibc-2.35-r1.apk glibc-bin-2.35-r1.apk glibc-dev-2.35-r1.apk glibc-i18n-2.35-r1.apk
+apk add assets/glibc/glibc-2.35-r1.apk
+apk add assets/glibc/glibc-bin-2.35-r1.apk
+apk add assets/glibc/glibc-dev-2.35-r1.apk
+apk add assets/glibc/glibc-i18n-2.35-r1.apk
 
 apk add font-adobe-100dpi
 

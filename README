@@ -1,0 +1,8 @@
+# Microsoft Ya Hei for Linux
+
+## Alpine
+
+```sh
+apk add font-adobe-100dpi
+mkdir /usr/share/fonts/msyh
+```

@@ -2,7 +2,16 @@
 
 ## Alpine
 
+Clone Repo
+
 ```sh
-apk add font-adobe-100dpi
-mkdir /usr/share/fonts/msyh
+git clone https://github.com/JustLikeCheese/msyh
+sh install-alpine.sh
+```
+
+Change the language if you need
+
+```sh
+/usr/glibc-compat/bin/localedef -i zh_CN -f UTF-8 zh_CN.UTF-8
+echo "export LANG=zh_CN.UTF-8" >> /etc/bash/bashrc
 ```
